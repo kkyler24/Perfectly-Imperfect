@@ -17,7 +17,7 @@ function NavBar() {
               class="navbar-brand"
               href="#/index"
             >
-              Ky Kyler
+              Paper Kit 2
             </a>
             <button aria-expanded="false" class="navbar-toggler navbar-toggler">
               <span class="navbar-toggler-bar bar1"></span>
@@ -25,7 +25,7 @@ function NavBar() {
               <span class="navbar-toggler-bar bar3"></span>
             </button>
           </div>
-          <div class="justify-content-end collapse navbar-collapse">
+          <div class="justify-content-end collapse navbar-collapse" style="">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a
@@ -33,17 +33,17 @@ function NavBar() {
                   target="_blank"
                   class="btn-round btn btn-danger"
                 >
-                  <i class="nc-icon nc-spaceship"></i> Home
+                  <i class="nc-icon nc-spaceship"></i> Upgrade to PRO
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#/index">
-                  <i class="nc-icon nc-layout-11"></i> Portfolio
+                  <i class="nc-icon nc-layout-11"></i> Components
                 </a>
               </li>
               <li class="nav-item">
                 <a target="_blank" class="nav-link" href="#/documentation">
-                  <i class="nc-icon nc-book-bookmark"></i> Resume
+                  <i class="nc-icon nc-book-bookmark"></i> Documentation
                 </a>
               </li>
               <li class="nav-item">
@@ -61,16 +61,27 @@ function NavBar() {
               <li class="nav-item">
                 <a
                   data-placement="bottom"
-                  href="https://www.linkedIn"
+                  href="https://www.facebook.com/CreativeTim?ref=creativetim"
                   target="_blank"
-                  title="Let's connect on LinkedIn"
+                  title="Like us on Facebook"
                   class="nav-link"
                 >
-                  <i class="fa fa-linkedIn"></i>
-                  LinkedIn
+                  <i class="fa fa-facebook-square"></i>
+                  <p class="d-lg-none">Facebook</p>
                 </a>
               </li>
-
+              <li class="nav-item">
+                <a
+                  data-placement="bottom"
+                  href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                  target="_blank"
+                  title="Follow us on Instagram"
+                  class="nav-link"
+                >
+                  <i class="fa fa-instagram"></i>
+                  <p class="d-lg-none">Instagram</p>
+                </a>
+              </li>
               <li class="nav-item">
                 <a
                   data-placement="bottom"

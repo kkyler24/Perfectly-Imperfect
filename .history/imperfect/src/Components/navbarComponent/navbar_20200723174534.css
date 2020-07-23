@@ -14,7 +14,6 @@
   font-weight: 600;
   margin: 5px 0;
   padding: 20px 15px;
-  font-size: 14px;
   text-transform: uppercase;
 }
 
@@ -81,26 +80,21 @@ button {
   align-items: flex-start;
   font: 400 13.3333px Arial;
 }
-.navbar .navbar-toggler .navbar-toggler-bar {
+.navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
+  background: #fff !important;
+  margin-top: 4px;
   display: block;
   position: relative;
   width: 24px;
   height: 2px;
   border-radius: 1px;
   margin: 0 auto;
-}
-
-.navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
-  background: #fff !important;
+  line-height: 10px;
 }
 
 .navbar-transparent .navbar-nav .nav-item .nav-link:not(.btn) {
   color: #fff;
   border-color: #fff;
-}
-
-.navbar .navbar-toggler .navbar-toggler-bar + .navbar-toggler-bar {
-  margin-top: 4px;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
@@ -148,14 +142,9 @@ a {
   background-color: transparent;
 }
 
-.collapse:not(.show) {
-  display: none;
-}
-
 .justify-content-end {
   justify-content: flex-end !important;
 }
-
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;

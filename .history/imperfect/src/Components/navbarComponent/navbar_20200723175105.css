@@ -14,7 +14,6 @@
   font-weight: 600;
   margin: 5px 0;
   padding: 20px 15px;
-  font-size: 14px;
   text-transform: uppercase;
 }
 
@@ -148,14 +147,9 @@ a {
   background-color: transparent;
 }
 
-.collapse:not(.show) {
-  display: none;
-}
-
 .justify-content-end {
   justify-content: flex-end !important;
 }
-
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;

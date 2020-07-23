@@ -148,14 +148,9 @@ a {
   background-color: transparent;
 }
 
-.collapse:not(.show) {
-  display: none;
-}
-
 .justify-content-end {
   justify-content: flex-end !important;
 }
-
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;

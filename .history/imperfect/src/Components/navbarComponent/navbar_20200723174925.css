@@ -14,7 +14,6 @@
   font-weight: 600;
   margin: 5px 0;
   padding: 20px 15px;
-  font-size: 14px;
   text-transform: uppercase;
 }
 
@@ -99,10 +98,6 @@ button {
   border-color: #fff;
 }
 
-.navbar .navbar-toggler .navbar-toggler-bar + .navbar-toggler-bar {
-  margin-top: 4px;
-}
-
 .navbar .navbar-nav .nav-item .nav-link {
   line-height: 1.6;
   margin: 15px 3px;
@@ -148,14 +143,9 @@ a {
   background-color: transparent;
 }
 
-.collapse:not(.show) {
-  display: none;
-}
-
 .justify-content-end {
   justify-content: flex-end !important;
 }
-
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;

@@ -25,7 +25,7 @@ function NavBar() {
               <span class="navbar-toggler-bar bar3"></span>
             </button>
           </div>
-          <div class="justify-content-end collapse navbar-collapse">
+          <div class="justify-content-end collapse navbar-collapse" style="">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a
@@ -67,7 +67,7 @@ function NavBar() {
                   class="nav-link"
                 >
                   <i class="fa fa-linkedIn"></i>
-                  LinkedIn
+                  LinkedIn{" "}
                 </a>
               </li>
 
