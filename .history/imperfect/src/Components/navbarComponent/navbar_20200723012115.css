@@ -1,0 +1,33 @@
+.navbar.navbar-transparent {
+  background: transparent !important;
+  padding-top: 25px;
+  box-shadow: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+/* media Q */
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg > .container {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+}
