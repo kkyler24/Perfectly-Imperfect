@@ -1,0 +1,51 @@
+/* navbar */
+
+.navbar.navbar-transparent {
+  background: transparent !important;
+  padding-top: 25px;
+  box-shadow: none;
+}
+
+.navbar {
+  border: 0;
+  font-size: 14px;
+  padding: 0;
+  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+  font-weight: 300;
+  align-items: center;
+  display: flex;
+}
+.navbar > .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  /* not needed for fixed bottom */
+  top: 0;
+}
+
+/* media Q navbar */
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-expand-lg > .container,
+  .navbar-expand-lg > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

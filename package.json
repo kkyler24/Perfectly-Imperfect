@@ -1,0 +1,19 @@
+{
+  "name": "perfectly-imperfect",
+  "version": "1.0.0",
+  "description": "Ky Kyler Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkyler24/Perfectly-Imperfect.git"
+  },
+  "author": "Ky Kyler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkyler24/Perfectly-Imperfect/issues"
+  },
+  "homepage": "https://github.com/kkyler24/Perfectly-Imperfect#readme"
+}

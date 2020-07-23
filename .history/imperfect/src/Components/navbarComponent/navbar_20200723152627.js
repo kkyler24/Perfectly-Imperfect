@@ -59,7 +59,6 @@ function NavBar() {
                   className="nav-link"
                 >
                   <i className="fa fa-linkedin"></i>
-                  {/* consider adding a toolkit for linked in */}
                   <p className="d-lg-none">LinkedIn</p>
                 </a>
               </li>
@@ -72,8 +71,7 @@ function NavBar() {
                   className="nav-link"
                 >
                   <i className="fa fa-github"></i>
-                  {/* consider adding a toolkit for github in */}
-                  <p className="d-lg-none"></p>
+                  <p className="d-lg-none">GitHub</p>
                 </a>
               </li>
             </ul>

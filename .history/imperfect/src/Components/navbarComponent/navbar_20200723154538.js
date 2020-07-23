@@ -60,7 +60,7 @@ function NavBar() {
                 >
                   <i className="fa fa-linkedin"></i>
                   {/* consider adding a toolkit for linked in */}
-                  <p className="d-lg-none">LinkedIn</p>
+                  <p className="d-lg-none"></p>
                 </a>
               </li>
               <li className="nav-item">

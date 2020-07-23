@@ -23,9 +23,9 @@ function NavBar() {
               aria-expanded="false"
               className="navbar-toggler navbar-toggler"
             >
-              <span className="navbar-toggler-bar bar1"></span>
-              <span className="navbar-toggler-bar bar2"></span>
-              <span className="navbar-toggler-bar bar3"></span>
+              <span className="navbar-toggler-bar bar1">Home</span>
+              <span className="navbar-toggler-bar bar2">Portfolio</span>
+              <span className="navbar-toggler-bar bar3">Resume</span>
             </button>
           </div>
           <div className="justify-content-end collapse navbar-collapse">
@@ -59,7 +59,6 @@ function NavBar() {
                   className="nav-link"
                 >
                   <i className="fa fa-linkedin"></i>
-                  {/* consider adding a toolkit for linked in */}
                   <p className="d-lg-none">LinkedIn</p>
                 </a>
               </li>
@@ -72,8 +71,7 @@ function NavBar() {
                   className="nav-link"
                 >
                   <i className="fa fa-github"></i>
-                  {/* consider adding a toolkit for github in */}
-                  <p className="d-lg-none"></p>
+                  <p className="d-lg-none">GitHub</p>
                 </a>
               </li>
             </ul>

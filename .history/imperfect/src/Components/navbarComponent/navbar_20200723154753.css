@@ -92,15 +92,6 @@ button {
   font-weight: 600;
 }
 
-.navbar .navbar-nav .nav-item .nav-link p {
-  margin: 0;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.5em;
-  padding: 15px 0;
-}
-
 button:not(:disabled) {
   cursor: pointer;
 }
@@ -140,34 +131,6 @@ ul {
   margin-top: 0;
 }
 
-.nc-icon {
-  display: inline-block;
-  font: normal normal normal 14px/1 "nucleo-icons";
-  font-size: inherit;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-}
-
-.nc-layout-11:before {
-  content: "\ea36";
-}
-
-.nc-book-bookmark:before {
-  content: "\ea0f";
-}
-
-.fa-github:before {
-  content: "\f09b";
-}
-
-:before {
-  box-sizing: border-box;
-}
-
-.navbar .navbar-collapse .nav-item .nav-link p {
-  display: inline;
-}
-
 /* media Q navbar */
 @media (min-width: 992px) {
   .navbar-expand-lg {
@@ -189,12 +152,6 @@ ul {
     position: relative;
     z-index: 3;
     height: 95%;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .navbar-collapse .navbar-nav > .nav-item > .nav-link {
-    color: #9a9a9a !important;
   }
 }
 

@@ -1,0 +1,126 @@
+/* navbar */
+
+.navbar.navbar-transparent {
+  background: transparent !important;
+  padding-top: 25px;
+  box-shadow: none;
+}
+
+.navbar.navbar-transparent .navbar-brand {
+  color: #fff;
+}
+
+.navbar .navbar-brand {
+  font-weight: 600;
+  margin: 5px 0;
+  padding: 20px 15px;
+  text-transform: uppercase;
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.navbar {
+  border: 0;
+  font-size: 14px;
+  padding: 0;
+  font-family: "Montserrat", "Helvetica", Arial, sans-serif;
+  font-weight: 300;
+  align-items: center;
+  display: flex;
+}
+.navbar > .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+button {
+  text-transform: none;
+  overflow: visible;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  /* not needed for fixed bottom */
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* media Q navbar */
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-expand-lg > .container,
+  .navbar-expand-lg > .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-translate {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    transform: translateX(0);
+    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+}
