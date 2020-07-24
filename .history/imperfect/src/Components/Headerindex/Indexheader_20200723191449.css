@@ -1,0 +1,75 @@
+#background {
+  background-image: url("../../Assets/imgs/brownnoodyGreatbirdisland.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.page-header {
+  background-position: 50%;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-header .filter:after {
+  background-color: rgba(0, 0, 0, 0.125);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.page-header .motto {
+  z-index: 3;
+  color: #fff;
+  position: relative;
+}
+
+.headerContainer {
+  display: flexbox;
+  flex-direction: row !important;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 30px;
+}
+
+.text-center {
+  text-align: center !important;
+}
+div {
+  display: block;
+}
+
+/* media Q */
+@media (min-width: 992px) {
+  .headerContainer {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) {
+  .headerContainer {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  .headerContainer {
+    max-width: 540px;
+  }
+}

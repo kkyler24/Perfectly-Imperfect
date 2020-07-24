@@ -1,0 +1,4 @@
+.aboutMain .section:first-of-type {
+  position: relative;
+  z-index: 2;
+}

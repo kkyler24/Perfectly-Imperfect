@@ -1,0 +1,21 @@
+.aboutMain .section:first-of-type {
+  position: relative;
+  z-index: 2;
+}
+
+.sectionAB {
+  padding: 70px 0;
+  background-color: #fff;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.titleAB {
+  font-family: "Petit Formal Script", cursive;
+}
+
+.descriptionAB {
+  font-family: "Montserrat", sans-serif;
+}

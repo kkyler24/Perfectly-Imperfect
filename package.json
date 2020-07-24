@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/kkyler24/Perfectly-Imperfect/issues"
   },
-  "homepage": "https://github.com/kkyler24/Perfectly-Imperfect#readme"
+  "homepage": "https://github.com/kkyler24/Perfectly-Imperfect#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reactstrap": "^8.5.1"
+  }
 }
