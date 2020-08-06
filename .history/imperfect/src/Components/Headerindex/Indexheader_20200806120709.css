@@ -49,7 +49,7 @@
   margin-right: auto;
   margin-left: auto;
   font-size: 50px;
-  justify-content: center;
+  max-width: 700px !important;
 }
 
 .text-center {
@@ -72,14 +72,11 @@ h1 {
   #JumboHeaderTitle {
     width: 300px;
     margin: auto;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
   }
-  #background {
-    width: 450px !important;
-  }
 }
-/* 
+
 @media (max-width: 570px) and (min-width: 280px) {
   #JumboHeaderTitle {
     width: 400px;
@@ -87,7 +84,7 @@ h1 {
     font-size: 20px;
     text-align: center;
   }
-} */
+}
 
 /* media Q */
 @media (min-width: 992px) {

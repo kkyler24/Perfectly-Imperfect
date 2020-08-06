@@ -191,11 +191,10 @@ ul {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 30px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
-  border-radius: 50%;
 }
 
 .fa:hover {
@@ -218,12 +217,7 @@ ul {
   content: "\ea0f";
 } */
 
-.fa-linkedin {
-  background: #222b3f;
-  color: white;
-}
-
-.fa-github {
+.fa-github:before {
   content: "\f09b";
   color: #222b3f;
 }

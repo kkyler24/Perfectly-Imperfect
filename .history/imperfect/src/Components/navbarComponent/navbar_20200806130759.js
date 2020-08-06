@@ -82,7 +82,7 @@ function NavBar() {
               <li class="nav-item">
                 <a
                   data-placement="bottom"
-                  href="https://github.com/kkyler24"
+                  href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
                   target="_blank"
                   title="Star on GitHub"
                   class="nav-link"

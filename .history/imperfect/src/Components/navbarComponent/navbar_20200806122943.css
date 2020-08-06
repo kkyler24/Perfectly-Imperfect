@@ -94,12 +94,12 @@ button {
 }
 
 .navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar {
-  background: #222b3f !important;
+  background: #fff !important;
 }
 
 .navbar-transparent .navbar-nav .nav-item .nav-link:not(.btn) {
-  color: #222b3f;
-  border-color: #222b3f;
+  color: #fff;
+  border-color: #fff;
 }
 
 .navbar .navbar-toggler .navbar-toggler-bar + .navbar-toggler-bar {
@@ -123,7 +123,6 @@ button {
   font-size: 12px;
   line-height: 1.5em;
   padding: 15px 0;
-  color: #222b3f;
 }
 
 button:not(:disabled) {
@@ -175,57 +174,36 @@ ul {
   font-size: 17px;
   position: relative;
   right: 5px;
-  color: #222b3f;
 }
 .fa {
   width: 18px;
   text-align: center;
 }
-/* .fa {
+.fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-} */
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
 }
 
-.fa:hover {
-  opacity: 0.7;
-}
-
-/* .nc-icon {
+.nc-icon {
   display: inline-block;
   font: normal normal normal 14px/1 "nucleo-icons";
   font-size: inherit;
   text-transform: none;
   -webkit-font-smoothing: antialiased;
-} */
+}
 
-/* .nc-layout-11:before {
+.nc-layout-11:before {
   content: "\ea36";
 }
 
 .nc-book-bookmark:before {
   content: "\ea0f";
-} */
-
-.fa-linkedin {
-  background: #222b3f;
-  color: white;
 }
 
-.fa-github {
+.fa-github:before {
   content: "\f09b";
-  color: #222b3f;
 }
 
 :before {
@@ -262,7 +240,7 @@ ul {
 
 @media screen and (max-width: 991px) {
   .navbar-collapse .navbar-nav > .nav-item > .nav-link {
-    color: #222b3f !important;
+    color: #9a9a9a !important;
   }
 }
 

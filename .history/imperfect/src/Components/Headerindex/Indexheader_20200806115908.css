@@ -49,7 +49,7 @@
   margin-right: auto;
   margin-left: auto;
   font-size: 50px;
-  justify-content: center;
+  max-width: 700px !important;
 }
 
 .text-center {
@@ -68,26 +68,15 @@ h1 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
-@media (max-width: 450px) and (min-width: 280px) {
+@media (max-width: 570px) and (min-width: 270px) {
   #JumboHeaderTitle {
     width: 300px;
-    margin: auto;
     font-size: 20px;
-    text-align: center;
-  }
-  #background {
-    width: 450px !important;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center !important;
   }
 }
-/* 
-@media (max-width: 570px) and (min-width: 280px) {
-  #JumboHeaderTitle {
-    width: 400px;
-    margin: auto;
-    font-size: 20px;
-    text-align: center;
-  }
-} */
 
 /* media Q */
 @media (min-width: 992px) {

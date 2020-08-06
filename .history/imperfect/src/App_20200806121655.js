@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <PGHeader />
-      {/* <Nav /> */}
+      <Nav />
       <AboutMe />
     </div>
   );

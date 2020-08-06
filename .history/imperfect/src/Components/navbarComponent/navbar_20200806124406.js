@@ -39,19 +39,36 @@ function NavBar() {
                   {/* <i class="fa fa-linkedIn"></i> */}
                 </a>
               </li>
-
               <li class="nav-item">
                 <a
                   data-placement="bottom"
-                  href="#"
+                  href="https://www.linkedin.com/in/ky-kyler-a723b932/"
+                  target="_blank"
+                  title="Let's connect on LinkedIn"
+                  class="nav-link fa fa-linkedin"
+                >
+                  {/* <i class="fa fa-linkedIn"></i> */}
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  data-placement="bottom"
+                  href="https://twitter.com/CreativeTim?ref=creativetim"
                   target="_blank"
                   title="Follow us on Twitter"
+                  class="nav-link"
                 >
                   {/* <i class="fa fa-twitter"></i> */}
                   <p class="d-lg-none"></p>
                 </a>
                 <li class="nav-item mr-2rem">
-                  <a data-placement="bottom" href="#" target="_blank">
+                  <a
+                    data-placement="bottom"
+                    href="https://www.linkedin.com/in/ky-kyler-a723b932/"
+                    target="_blank"
+                    title="Star on GitHub"
+                    class="nav-link fa fa-github"
+                  >
                     {/* <i class="fa fa-github"></i> */}
                     <p class="d-lg-none"></p>
                   </a>
@@ -72,17 +89,11 @@ function NavBar() {
                   <i class="nc-icon nc-book-bookmark"></i> Resume
                 </a>
               </li>
-              <li class="nav-item">
-                <a
-                  href="https://www.linkedin.com/in/ky-kyler-a723b932/"
-                  target="_blank"
-                  class="fa fa-linkedin"
-                ></a>
-              </li>
+
               <li class="nav-item">
                 <a
                   data-placement="bottom"
-                  href="https://github.com/kkyler24"
+                  href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
                   target="_blank"
                   title="Star on GitHub"
                   class="nav-link"

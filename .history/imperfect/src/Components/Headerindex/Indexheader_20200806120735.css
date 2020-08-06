@@ -49,7 +49,7 @@
   margin-right: auto;
   margin-left: auto;
   font-size: 50px;
-  justify-content: center;
+  max-width: 700px !important;
 }
 
 .text-center {
@@ -74,9 +74,6 @@ h1 {
     margin: auto;
     font-size: 20px;
     text-align: center;
-  }
-  #background {
-    width: 450px !important;
   }
 }
 /* 

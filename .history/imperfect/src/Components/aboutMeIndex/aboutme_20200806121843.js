@@ -1,5 +1,6 @@
 import React from "react";
 import "./aboutme.css";
+import Navbar from "../navbarComponent/navbar.js";
 
 function Aboutme() {
   return (
@@ -24,6 +25,7 @@ function Aboutme() {
           </div>
         </div>
       </div>
+      <Navbar />
     </div>
   );
 }
