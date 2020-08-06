@@ -10,10 +10,10 @@ function Aboutme() {
             <div class="ml-auto mr-auto col-md-8">
               <h2 class="titleAB"> Who am I?</h2>
               <h4 class="descriptionAB">
-                I am a Computer Science and Special Education Teacher turned
-                Software Developer
+                I am a Computer Science and Special Education Teacher{" "}
               </h4>
-              <p className="aboutparagraph">
+              {/* <br /> */}
+              <p>
                 I found my passion for technology through teaching. I have
                 developed creative and innovate ways to enhance my technology
                 and learning for the success of my students. Now I am focused on
@@ -26,10 +26,6 @@ function Aboutme() {
               <a href="#pablo" class="btn-round btn btn-info">
                 See Details
               </a>
-              {/* Transferrable Skills:
-Data, Data, Data!
-As a Teacher; one major part of our job is handling data. I created data, collected that data, analyzed that data, tracked data, then reported and visualized that data to those who needed it.
- */}
             </div>
           </div>
         </div>

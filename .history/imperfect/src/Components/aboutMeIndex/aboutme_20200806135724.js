@@ -26,10 +26,6 @@ function Aboutme() {
               <a href="#pablo" class="btn-round btn btn-info">
                 See Details
               </a>
-              {/* Transferrable Skills:
-Data, Data, Data!
-As a Teacher; one major part of our job is handling data. I created data, collected that data, analyzed that data, tracked data, then reported and visualized that data to those who needed it.
- */}
             </div>
           </div>
         </div>

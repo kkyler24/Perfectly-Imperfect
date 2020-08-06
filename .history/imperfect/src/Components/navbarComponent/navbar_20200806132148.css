@@ -181,6 +181,7 @@ ul {
 .fa {
   padding: 8px;
   font-size: 14px;
+  /* width: 11px; */
   height: 11px;
   top: 5px;
   text-align: center;

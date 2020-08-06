@@ -52,17 +52,7 @@
 .descriptionAB {
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
-  text-align: center;
-}
-
-.aboutparagraph {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  margin: auto;
-  width: 700px;
+  float: left;
 }
 
 .ABcontainer {
